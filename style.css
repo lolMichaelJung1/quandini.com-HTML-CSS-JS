@@ -33,7 +33,7 @@
   .nav-links ul li{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 20px;
     
   }
   .nav-links ul li::after{
@@ -243,11 +243,11 @@
     color: #fff;
   }
   slide-container {
-  width: 800px:
-  height: 600px:
+  width: 800px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
-  overflow; hidden;
+  overflow: hidden;
   text-align: center;
 }
 /* slideshow */
@@ -289,8 +289,3 @@
   
   
   
-  
-
-
-
-
