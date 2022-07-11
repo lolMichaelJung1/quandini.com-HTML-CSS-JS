@@ -1,4 +1,4 @@
-Read <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <html>
 <head>
@@ -8,7 +8,7 @@ Read <!DOCTYPE html>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> 
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
   </head>
 <body>
   
@@ -19,93 +19,33 @@ Read <!DOCTYPE html>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Inquiries</a></li>
-            <li><a href="">Login/Sign up</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="inquiries.html">Inquiries</a></li>
+            <li><a href="login.html">Login/Sign up</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="socialmedia.html">Social Media</a></li>
+            <li><a href="images.html">Images/Video</a></li>            
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <div class="text-box">
-      <h1>Quandini</h1>
+      <h1>Inquiries</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc.<br> Maecenas fringilla neque velit, in lobortis ante accumsan imperdiet.</p>
-        <a href="" class="hero-btn">Read More</a>
       </div>
     </section>
-  
-<!-- Home -->
-  <section class="Home">
-        <h1>Home</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="row">
-          <div class="Home-col">
-            <h3>Spacer1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc. Nulla vel sapien neque. Suspendisse ut venenatis tortor.</p>
-          </div>
-          <div class="Home-col">
-            <h3>Spacer2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc. Nulla vel sapien neque. Suspendisse ut venenatis tortor.</p>
-          </div>
-          <div class="Home-col">
-            <h3>Spacer3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc. Nulla vel sapien neque. Suspendisse ut venenatis tortor.</p>
-          </div>
-        </div>
-      </section>
-<!-- Slideshow -->
+<!-- JavaScript for Menu -->
+ <script>
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function showMenu(){
+    navLinks.style.right="-200px";
+  }
+  </script>
 
-        <head>
-            <title>Image Slider</title>
-            <link href="style.css" type="text/css" rel="stylesheet" />
-
-            <meta charset="UTF-8">
-            <meta name="viewport content="width=device-width, initial-scale1.0">
-        </head>
-        <body>
-           <div class="slide-container">
-           <span id="slider-image-1"></span>
-           <span id="slider-image-2"></span>
-           <span id="slider-image-3"></span>
-               <div class="image-container">
-                                           <img src="1.jpg" class="slider-image" >
-                                           <img src="2.jpg" class="slider-image" >
-                                           <img src="3.jpg" class="slider-image" >
-               </div>
-              <div class="button-container">
-                 <a href="#slider-image-1" class="slider-button" ></a>
-                 <a href="#slider-image-2" class="slider-button" ></a>
-                 <a href="#slider-image-3" class="slider-button" ></a>
-                      <div>
-                </div>
-<!--About -->
-   <section class="About">
-   <h1>About</h1>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>  
-<div class-"row>
-  <div class="About-col">
-    <img src="">
-    <div clas="layer">
-      <h3>Spacer1</h3>
-    </div>
-  </div>
-  <div class="About-col">
-    <img src="">
-    <div clas="layer">
-      <h3>Spacer2</h3>
-    </div>
-  </div>
-  <div class="About-col">
-    <img src="">
-    <div clas="layer">
-      <h3>Spacer3</h3>
-    </div>
-  </div>
-</div>       
- </section>
-  
 <!-- Inquiries -->
   <section class="Inquiries">
     <h1>Inquiries</h1>
@@ -123,19 +63,5 @@ Read <!DOCTYPE html>
       </div> 
     </div>
   </section>
-<!-- Login/signup -->
-<section class="Sign up/ Login">
-  <h1>Login</h1>
-</section>
-<!--JavaScript for Toggle Menu--------->
-      <script>
-        var navLinks = document.getElementById("navLinks")
-        function showMenu(){
-          navLinks.style.right="0";
-        }
-        function showMenu(){
-          navLinks.style.right="-200px";
-        }
-      </script>
   </body>
 </html>
