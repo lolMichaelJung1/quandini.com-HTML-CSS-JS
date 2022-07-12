@@ -254,7 +254,7 @@
 .image-container {
   width: 2400px;
   height: 600px;
-  position:relative;
+  position: relative;
   transition: left 2s;
   -webkit-transition: left 2s;
   -moz-transition: left 2s;
@@ -274,7 +274,7 @@
   height: 10px;
   width: 10px;
   border-radius: 5px;
-  background-color: white;
+  background-color: #fff;
 }
 #slider-image-1:target ~ .image-container{
   left: 0px;
