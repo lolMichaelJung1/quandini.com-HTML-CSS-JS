@@ -10,11 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
   </head>
-<body>
-<!-- Blog -->
-  <section class="Blog">
-    
-  </section>  
+<body>  
 <!-- header -->
     <section class="header">
       <nav>
@@ -27,7 +23,6 @@
             <li><a href="inquiries.html">Inquiries</a></li>
             <li><a href="login.html">Login/Sign up</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="socialmedia.html">Social Media</a></li>
             <li><a href="images.html">Images/Video</a></li>             
           </ul>
         </div>
@@ -38,5 +33,38 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc.<br> Maecenas fringilla neque velit, in lobortis ante accumsan imperdiet.</p>
       </div>
     </section>
+    <!-- Blog -->
+    <style>
+      article{
+        display: grid;
+        grid-template-columns: 1fr 0.5in minmax(0, 7.5in) 0.5fr;
+        height: 100vh;
+        padding: 0.5in 0;
+}
+article * {grid-column: 3 / 4;}
+    </style>
+    <body>
+      <article>
+        <p class="Blog">ARTICLE</p>
+      </article>
+    </body>
+    <article>
+      <p class="Blog">ARTICLE</p>
+    </article>
+    <article>
+      <p class="Blog">ARTICLE</p>
+    </article>
+  </body>    
+  <section class="Blog">
+    </section>
+<!-- Social Media Icons-->
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-youtube"></a>
   </body>
 </html>
