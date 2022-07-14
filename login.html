@@ -24,7 +24,6 @@
             <li><a href="inquiries.html">Inquiries</a></li>
             <li><a href="login.html">Login/Sign up</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="socialmedia.html">Social Media</a></li>
             <li><a href="images.html">Images/Video</a></li>              
           </ul>
         </div>
@@ -32,92 +31,101 @@
       </nav>
       <div class="text-box">
       <h1>Login/Sign up</h1>
-        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+    </div>
+  </section>
+  </style>
+  </head>
+  <body>
+  <div id="id01" class="box">
+    
+    <form class="box-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close box">&times;</span>
+        <img src="https://www.casino.org/blog/wp-content/uploads/shutterstock_495751408-875x583.jpg" alt="Avatar" class="avatar">
       </div>
-    </section>
-    </style>
-    </head>
-    <body>
-    <div id="id01" class="box">
-      
-      <form class="box-content animate" action="/action_page.php" method="post">
-        <div class="imgcontainer">
-          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close box">&times;</span>
-          <img src="https://www.casino.org/blog/wp-content/uploads/shutterstock_495751408-875x583.jpg" alt="Avatar" class="avatar">
-        </div>
-    
-        <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-    
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-            
-          <button type="submit">Login</button>
-          <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-          </label>
-        </div>
-    
-        <div class="container" style="background-color:#f1f1f1">
-          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
-      </form>
-      <script>
-        var box = document.getElementById('id01');
-        
-        // closes the login box when user clicks outside
-        window.onclick = function(event) {
-            if (event.target == box) {
-                box.style.display = "none";
-            }
-        }
-        </script>
-    </div>
-
-    
-    <div id="id02" class="box">
-      
-      <form class="box-content animate" action="/action_page.php" method="post">
-        <div class="imgcontainer">
-          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close box">&times;</span>
-          <img src="https://www.casino.org/blog/wp-content/uploads/shutterstock_495751408-875x583.jpg" alt="Avatar" class="avatar">
-        </div>
-    
-        <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-    
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-            
-          <button type="submit">Sign Up</button>
-        </div>
-      </form>
-    </div>
-    
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
     <script>
-    var box = document.getElementById('id02');
-    
-    // closes the login box when user clicks outside
-    window.onclick = function(event) {
-        if (event.target == box) {
-            box.style.display = "none";
-        }
-    }
-    </script>
+      var box = document.getElementById('id01');
+      
+      // closes the login box when user clicks outside
+      window.onclick = function(event) {
+          if (event.target == box) {
+              box.style.display = "none";
+          }
+      }
+      </script>
+  </div>
 
-</section>  
-<!-- JavaScript for Menu -->
- <script>
-  var navLinks = document.getElementById("navLinks")
-  function showMenu(){
-    navLinks.style.right="0";
-  }
-  function showMenu(){
-    navLinks.style.right="-200px";
+  
+  <div id="id02" class="box">
+    
+    <form class="box-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close box">&times;</span>
+        <img src="https://www.casino.org/blog/wp-content/uploads/shutterstock_495751408-875x583.jpg" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Sign Up</button>
+      </div>
+    </form>
+  </div>
+  
+  <script>
+  var box = document.getElementById('id02');
+  
+  // closes the login box when user clicks outside
+  window.onclick = function(event) {
+      if (event.target == box) {
+          box.style.display = "none";
+      }
   }
   </script>
-  </body>
+
+</section>
+<!-- Social Media Icons-->
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-youtube"></a>  
+<!-- JavaScript for Menu -->
+<script>
+var navLinks = document.getElementById("navLinks")
+function showMenu(){
+  navLinks.style.right="0";
+}
+function showMenu(){
+  navLinks.style.right="-200px";
+}
+</script>
+</body>
 </html>
