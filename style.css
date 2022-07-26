@@ -556,3 +556,16 @@
       padding: 20px;
     }
   }
+
+  .button {
+    background-color: #000;
+  }
+
+  .buttontwo {
+    background-color: #000;
+    width:min-content
+  }
+
+  .rember {
+    justify-content: right;
+  }
