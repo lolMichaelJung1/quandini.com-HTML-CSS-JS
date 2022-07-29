@@ -24,90 +24,75 @@
             <li><a href="inquiries.html">Inquiries</a></li>
             <li><a href="login.html">Login/Sign up</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="images.html">Images/Video</a></li>              
+            <li><a href="images.html">Images/Video</a></li>            
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <div class="text-box">
-      <h1>Login/Sign up</h1>
-      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="button" type = "button">Login</button> <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="button" type = "button">Sign Up</button>
-    </div>
-  </section>
-  </style>
-  </head>
-  <body>
-  <div id="id01" class="box">
-    
-    <form class="box-content animate" action="/action_page.php" method="post">
-      <div class="imgcontainer">
-        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close box">&times;</span>
-        <img src="https://www.casino.org/blog/wp-content/uploads/shutterstock_495751408-875x583.jpg" alt="Avatar" class="avatar">
+      <h1>Quandini</h1>
+        <h2>Magician and Illusionist<br> </h2>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
       </div>
+    </section>
   
-      <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-  
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-          
-        <button class="buttontwo" type="submit">Login</button>
-        <label for = "right-label" class = "text-right">
-          <input type="checkbox" class="rember" checked="checked" name="remember"> Remember me
-        </label>
-      </div>
-  
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="buttontwo" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a></span>
-      </div>
-    </form>
-    <script>
-      var box = document.getElementById('id01');
-      
-      // closes the login box when user clicks outside
-      window.onclick = function(event) {
-          if (event.target == box) {
-              box.style.display = "none";
-          }
-      }
-      </script>
+<!-- Home -->
+  <section class="Home">
+        <h1>Home</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="Home-col">
+            <h3>Spacer1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc. Nulla vel sapien neque. Suspendisse ut venenatis tortor.</p>
+          </div>
+          <div class="Home-col">
+            <h3>Spacer2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc. Nulla vel sapien neque. Suspendisse ut venenatis tortor.</p>
+          </div>
+          <div class="Home-col">
+            <h3>Spacer3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc. Nulla vel sapien neque. Suspendisse ut venenatis tortor.</p>
+          </div>
+        </div>
+      </section>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images\Quandini_Slider_Image_1_800x600px.jpg" style="width:100%">
+    <div class="text">Quandini Pic 1</div>
   </div>
 
-  
-  <div id="id02" class="box">
-    
-    <form class="box-content animate" action="/action_page.php" method="post">
-      <div class="imgcontainer">
-        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close box">&times;</span>
-        <img src="https://www.casino.org/blog/wp-content/uploads/shutterstock_495751408-875x583.jpg" alt="Avatar" class="avatar">
-      </div>
-  
-      <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-  
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-          
-        <button type="submit" class="button">Sign Up</button>
-      </div>
-    </form>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images\Quandini_Slider_Image_2_800x600px.jpg" style="width:100%">
+    <div class="text">Quandini Pic 2</div>
   </div>
-  
-  <script>
-  var box = document.getElementById('id02');
-  
-  // closes the login box when user clicks outside
-  window.onclick = function(event) {
-      if (event.target == box) {
-          box.style.display = "none";
-      }
-  }
-  </script>
 
-</section>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images\Quandini_Slider_Image_3_800x600px.jpg" style="width:100%">
+    <div class="text">Quandini Pic 3</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+        
+  <meta charset="UTF-8">
+  <meta name="viewport content="width=device-width, initial-scale1.0">
 <!-- Social Media Icons-->
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -116,7 +101,8 @@
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-youtube"></a>  
+<a href="#" class="fa fa-youtube"></a>
+           
 <!-- JavaScript for Menu -->
 <script>
   var navLinks = document.getElementById("navLinks");
@@ -127,6 +113,7 @@
     navLinks.style.right="-200px";
   }
   </script>
-</script>
-</body>
+  </body>
 </html>
+                                 
+<script src="script.js"></script>
