@@ -33,34 +33,63 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu libero, feugiat sed viverra eu, vehicula vitae nunc.<br> Maecenas fringilla neque velit, in lobortis ante accumsan imperdiet.</p>
       </div>
     </section>
-    <!-- Blog -->
-    <style>
-      article{
-        display: grid;
-        grid-template-columns: 1fr 0.5in minmax(0, 7.5in) 0.5fr;
-        height: 100vh;
-        padding: 0.5in 0;
-}
-article * {grid-column: 3 / 4;}
-    </style>
-    <body>
-      <article>
-        <p class="Blog">ARTICLE</p>
-      </article>
-    </body>
-    <article>
-      <p class="Blog">ARTICLE</p>
-    </article>
-    <article>
-      <p class="Blog">ARTICLE</p>
-    </article>
   </body>    
   <section class="Blog">
+  <div class="blog-heading">
+    <span>Recent Post</span>
+    <h3>My Blog</h3>
+  </div> 
+  <div class="blog-container">
+    <!-- blog 1 -->
+    <div class="blog-box">
+      <div class="blog-img">
+        <img src="images/blog-1.jpg" alt="Blog">
+      </div>
+      <div class="blog-text">
+        <span>14 July 2022 / Quandini</span>
+        <a href="#" class="blog-title">Quandini's Tricks in Japan</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor sem a nibh feugiat suscipit. Duis mi velit, imperdiet id hendrerit et, gravida at nisi. Nulla placerat arcu magna, in malesuada libero fringilla eget. Etiam feugiat mauris non cursus fermentum. Donec at leo ut magna sagittis rutrum. Donec eget semper enim. Quisque iaculis nibh a dictum porta. Maecenas sit amet ex mauris. Donec porttitor, odio in facilisis tincidunt, metus nisi lobortis lorem, id posuere justo ante a leo. Curabitur ipsum lorem, luctus eu libero et, tempus pretium ante.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <!-- blog 2 -->
+    <div class="blog-box">
+      <div class="blog-img">
+        <img src="images/blog-1.jpg" alt="Blog">
+      </div>
+      <div class="blog-text">
+        <span>14 July 2022 / Quandini</span>
+        <a href="#" class="blog-title">Quandini's Tricks in Japan</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor sem a nibh feugiat suscipit. Duis mi velit, imperdiet id hendrerit et, gravida at nisi. Nulla placerat arcu magna, in malesuada libero fringilla eget. Etiam feugiat mauris non cursus fermentum. Donec at leo ut magna sagittis rutrum. Donec eget semper enim. Quisque iaculis nibh a dictum porta. Maecenas sit amet ex mauris. Donec porttitor, odio in facilisis tincidunt, metus nisi lobortis lorem, id posuere justo ante a leo. Curabitur ipsum lorem, luctus eu libero et, tempus pretium ante.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <!-- blog 3 -->
+    <div class="blog-box">
+      <div class="blog-img">
+        <img src="images/blog-1.jpg" alt="Blog">
+      </div>
+      <div class="blog-text">
+        <span>14 July 2022 / Quandini</span>
+        <a href="#" class="blog-title">Quandini's Tricks in Japan</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor sem a nibh feugiat suscipit. Duis mi velit, imperdiet id hendrerit et, gravida at nisi. Nulla placerat arcu magna, in malesuada libero fringilla eget. Etiam feugiat mauris non cursus fermentum. Donec at leo ut magna sagittis rutrum. Donec eget semper enim. Quisque iaculis nibh a dictum porta. Maecenas sit amet ex mauris. Donec porttitor, odio in facilisis tincidunt, metus nisi lobortis lorem, id posuere justo ante a leo. Curabitur ipsum lorem, luctus eu libero et, tempus pretium ante.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
     </section>
 <!-- Social Media Icons-->
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<!-- JavaScript for Menu -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-200px";
+  }
+  </script>
 <!-- Add font awesome icons -->
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
