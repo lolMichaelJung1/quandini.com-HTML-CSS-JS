@@ -5,8 +5,8 @@ CheckLogin = function (){
   $.ajax(
         {
             //whatever the link that backend team developed
-            url: rootUrl + '*************************',
-            type: 'POST',
+            url: 'Login/SelectLogin',
+            type: 'Get',
             data: {
                 login = login,
                 password = pwd
