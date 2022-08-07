@@ -59,7 +59,7 @@
     text-align: center;
   }
   .text-box h1{
-    font-size: 275px;
+    font-size: 250px;
   }
   .text-box p {
     margin: 10px 0 40px;
@@ -215,26 +215,28 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
   }
-  .Inquiries-col{
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
+  .labelFont{
+    font-size: 40px;
   }
-  .Inquiries-col img{
-    width: 100%;
-    border-radius: 10px;
+  .Inquiries-h1{
+      font-size: 75;
   }
-  .Inquiries-col p{
-    padding: 0;
-  }
-  .Inquiries-col h3{
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
-  }
+  label[type="text"] {
+    font-size:200px;
+}
+input[type="text"] {
+  font-size:25px;
+}
+input[type="Date"] {
+  font-size:25px;
+}
+input[type="Address"] {
+  font-size:25px;
+}
+textarea{
+  font-size: 25px;
+}
   slide-container {
   width: 800px;
   height: 600px;
