@@ -212,7 +212,7 @@
   }
   /* Inquiries */
   .Inquiries{
-    width: 80%;
+    width: 50%;
     margin: auto;
     text-align: center;
   }
@@ -224,18 +224,28 @@
   }
   label[type="text"] {
     font-size:25px;
+    width: 50%;
+    margin: auto;
 }
 input[type="text"] {
   font-size:25px;
+  width: 50%;
+  margin: auto;
 }
 input[type="Date"] {
   font-size:25px;
+  width: 50%;
+  margin: auto;
 }
 input[type="Address"] {
   font-size:25px;
+  width: 50%;
+  margin: auto;
 }
 textarea{
   font-size: 25px;
+  width: 50%;
+  margin: auto;
 }
   slide-container {
   width: 800px;
@@ -519,3 +529,4 @@ width: 100%;
   margin-top: 8px;
   vertical-align: middle;
 }
+
