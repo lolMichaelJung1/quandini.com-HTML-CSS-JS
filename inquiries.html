@@ -15,7 +15,7 @@
 <!-- header -->
     <section class="header">
       <nav>
-        <a href="index.html"><img src="images/logo.png"></a>
+        <a href="index.html"><img src="Quandini-Final-Logo.png"></a>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -24,44 +24,60 @@
             <li><a href="inquiries.html">Inquiries</a></li>
             <li><a href="login.html">Login/Sign up</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="images.html">Images/Video</a></li>            
+            <li><a href="images.html">Images/Videos</a></li>            
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <div class="text-box">
       <h1>Inquiries</h1>
-        <p>Looking to get in touch with Robert? Fill out the boxes below and you will receive a response within 48 hours.</p>
+        <p>Ready for some magic?  Please provide as much information below about your event. I will reach out as soon as I can to chat about your event.
+          Thank you for your consideration.
+          --Robert</p>
       </div>
     </section>
 <!-- JavaScript for Menu -->
- <script>
-  var navLinks = document.getElementById("navLinks")
+<script>
+  var navLinks = document.getElementById("navLinks");
   function showMenu(){
     navLinks.style.right="0";
   }
-  function showMenu(){
+  function hideMenu(){
     navLinks.style.right="-200px";
   }
   </script>
 
 <!-- Inquiries -->
-  <section class="Inquiries">
-    <h1>Inquiries</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <div class="row">
-      <div class="Inquiries-col">
-        <img src="">
-        <h3>Inquiries2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="Inquiries-col">
-        <img src="">
-        <h3>Inquiries3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div> 
+<section class="Inquiries">
+<form action="submission.html" method="POST">
+  <h1>Schedule an Appointment</h1>
+  <br>
+  <br>
+  <br>
+    <div>
+    <label for="patty" class = "labelFont">Name</label>
+    <input type="text" required name="name" id="name">
     </div>
-  </section>
+    <div>
+    <label for="partySize" class = "labelFont">Party Size</label>
+    <input type="text" required name="partySize" id="partySize">
+    </div> 
+    <div>
+    <label for="Address (city, state)" class = "labelFont">Address</label>
+    <textarea id="Address" required name="Address" id="Address"></textarea>
+    </div>
+    <div>
+    <label for="Date" class = "labelFont">Date</label>
+    <input type="Date" required name="Date" id="Date">
+  </div>
+    <div>
+    <label for="extra" class = "labelFont">Any special instructions?</label>
+    <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+  </div>
+  <div>
+    <input type="submit" value="Submit">
+  </div>
+</section>
 <!-- Social Media Icons-->
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
